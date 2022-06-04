@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_home"
+        android:title="主页面"
+        app:showAsAction="never"
+        android:orderInCategory="1"
+        >
+    </item>
+
+    <item
+        android:id="@+id/item_list"
+        android:title="列表"
+        app:showAsAction="never"
+        android:orderInCategory="2"
+        >
+    </item>
+
+    <item
+        android:id="@+id/item_statistic"
+        android:title="统计"
+
+        app:showAsAction="never"
+        android:orderInCategory="3"
+        >
+    </item>
+</menu>
